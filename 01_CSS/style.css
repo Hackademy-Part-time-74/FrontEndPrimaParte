@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* p {
+    border: 10px solid blue;
+    padding: 20px;
+    width: 300px;
+
+    background-color: red;
+} */
+
+
+/* CSS Reset 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+div {
+    width: 500px;
+
+    background-color: blue;
+}
+
+p {
+    padding: 20px;
+    width: 50%;
+    width: 50vw;
+
+    background-color: red;
+}
+*/
+
+
+/* span {
+    display: inline-block;
+
+    padding: 48px;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+} */
+
+
+/*
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 400px;
+
+    background-color: blue;
+}
+
+.item {
+    border: 2px solid red;
+    padding: 24px;
+    color: white;
+}
+*/
+
+
+/*
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 600px;
+
+
+    background-color: blue;
+}
+
+.item {
+    border: 2px solid red;
+    padding: 24px;
+    color: white;
+}
+*/
+
+
+/*
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: blue;
+}
+
+.col {
+    width: 100%;
+    width: 50%;
+    width: 33.3%;
+
+    border: 2px solid red;
+    padding: 24px;
+    color: white;
+}
+*/
+
+
+
+/* 
+p {
+    background-color: red;
+}
+
+se ho a che fare con lo schermo e da un minimo di 800px di larghezza di schermo in su
+@media screen and (min-width: 800px) {
+    p {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    p {
+        background-color: blue;
+    }
+}
+*/
+
+
+
+/* da 0px di larghezza di schermo in su */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: blue;
+}
+
+.col {
+    width: 100%;
+
+    border: 2px solid red;
+    padding: 24px;
+    color: white;
+}
+
+@media screen and (min-width: 800px) {
+    .col {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .col {
+        width: 33.3%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .row {
+        justify-content: center;
+    }
+
+    .col {
+        width: 25%;
+    }
+}
